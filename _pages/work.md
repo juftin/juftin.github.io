@@ -1,7 +1,7 @@
 ---
 author_profile: true 
 layout: single 
-permalink: /work 
+permalink: /work/
 date: 2022-02-08 
 title: ""
 ---
