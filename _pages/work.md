@@ -6,6 +6,13 @@ date: 2022-02-08
 title: ""
 ---
 
+## Interested in working together?
+
+If you're interested in my work as a Software and Machine Learning Operations
+Engineer: [get in touch](mailto:juftin@juftin.com), learn more on
+my [LinkedIn](https://linkedin.com/in/justinflannery), or check out
+my [resume](https://juftin.com/resume) for more info.
+
 # What I'm Working On <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif"  width="40px">
 
 In my free time I try to build tools and software that reflect my personal interests like camping,
@@ -32,6 +39,14 @@ includes everything you need (plus detailed documentation) to host a website for
 family to request new content be downloaded, services to find and securely download the latest
 movies and shows, and underneath it all a Plex media server to support playback of the content
 anywhere and on any device.
+
+### [FastApp](https://github.com/juftin/fastapp)
+
+`FastApp` is a wrapper around FastAPI for ML Powered Services 🧠. With just a few lines of code
+you can stand up auto-documenting REST APIs that power Machine Learning Services and deploy them as
+production hardened endpoints. Leveraging `Pydantic` and `FastAPI`, FastApp can get you up and
+running in minutes. Try it out: `pip install fastapp[example]`
+&& `fastapp serve-debug fastapp.app.example:app` && `open http://localhost:8080/docs`
 
 ### [lunchable](https://github.com/juftin/lunchable)
 
