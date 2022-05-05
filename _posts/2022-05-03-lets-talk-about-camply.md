@@ -3,7 +3,6 @@ title: "Let's talk about camply"
 date: 2022-05-03
 categories:
 - blog
-- camply
 tags:
 - update
 - camply
