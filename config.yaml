@@ -15,10 +15,7 @@ minify:
 params:
     env: production
     title: juftin
-    description: |
-        I'm juftin (Justin Flannery). I'm a Software Engineer in Denver Colorado
-        and this is my personal site to showcase my open source projects as well
-        as blog posts.
+    description: musings from a computer guy
     keywords: [Blog, Portfolio, PaperMod, Hugo, juftin, Python, Software Engineer]
     DateFormat: "January 2, 2006"
     defaultTheme: auto
@@ -55,7 +52,8 @@ params:
     profileMode:
         enabled: true
         title: what's juftin up to?
-        subtitle: "[and who's juftin?](/about/)"
+        subtitle: |
+            and <a href="/about/" style="text-decoration: underline;">who's juftin?</a>
         imageUrl: /static/justin_flannery.png
         imageWidth: 280
         imageHeight: 280
