@@ -3,6 +3,12 @@ title: juftin
 paginate: 5
 theme: PaperMod
 
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
