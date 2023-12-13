@@ -1,6 +1,7 @@
 ---
-permalink: /about/
-title: "About"
+title: "who's juftin?"
+ShowBreadCrumbs: false
+hidemeta: true
 ---
 
 <style>
@@ -21,7 +22,7 @@ title: "About"
      class="about-picture">
 </p>
 
-## Hey, I'm juftin (Justin Flannery) <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
+## Hey, I'm juftin (Justin Flannery)
 
 I'm a software engineer and Python developer based out of Denver, Colorado, USA.
 

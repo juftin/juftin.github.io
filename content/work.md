@@ -1,9 +1,6 @@
 ---
-author_profile: true
-layout: single
-permalink: /work/
-date: 2022-02-08
-title: ""
+ShowBreadCrumbs: false
+hidemeta: true
 ---
 
 ## Interested in working together?
@@ -11,9 +8,22 @@ title: ""
 If you're interested in my work as a Software and Machine Learning Operations
 Engineer: [get in touch](mailto:justin.flannery@juftin.com), learn more on
 my [LinkedIn](https://linkedin.com/in/justinflannery), or check out
-my [resume](https://juftin.com/resume) for more info.
+my [resume](../resume) for more info.
 
-# What I'm Working On <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif"  width="40px">
+<style>
+    .greeting {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .greeting-text {
+        margin-right: 10px;
+    }
+
+</style>
+
+# What I'm Working On
 
 In my free time I try to build tools and software that spark joy ✨. Below are a few of my more public facing
 GitHub repositories and some details about the projects.

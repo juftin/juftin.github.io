@@ -1,0 +1,40 @@
+{{ define "main" }}
+<main id="main">
+    <head>
+        <style>
+            .such-empty {
+                max-width: 100%;
+                margin-bottom: 20px; /* Add space below the text */
+            }
+            .larger-text {
+                font-size: 2em;
+                margin-bottom: 20px; /* Add space below the text */
+            }
+            .large-text {
+                font-size: 1.5em;
+            }
+            .large-text a,
+            .larger-text a {
+                color: #007bff;
+                text-decoration: none;
+            }
+            .large-text a:hover,
+            .larger-text a:hover {
+                color: #0056b3;
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <main id="main">
+            <img src="https://i.imgur.com/tN0RDLH.jpeg" class="such-empty" />
+
+            <p class="larger-text">Sorry, that page doesn't exist 🤷</p>
+            <p class="large-text">
+                Check out the <a href="./links/">Links Page</a> to find what you're
+                looking for.
+            </p>
+        </main>
+    </body>
+</main>
+{{ end }}
