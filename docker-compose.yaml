@@ -1,19 +1,19 @@
 services:
-  jekyll:
-    container_name: jekyll
-    image: juftin/jekyll:latest
-    build:
-      context: .
-      dockerfile: Dockerfile
-    volumes:
-      - ./:/project/
-    command:
-      - jekyll
-      - serve
-      - --livereload
-      - --host
-      - 0.0.0.0
-    working_dir: /project/
-    ports:
-      - 4000:4000
-      - 35729:35729
+    jekyll:
+        container_name: jekyll
+        image: juftin/jekyll:latest
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./:/project/
+        command:
+            - jekyll
+            - serve
+            - --livereload
+            - --host
+            - 0.0.0.0
+        working_dir: /project/
+        ports:
+            - 4000:4000
+            - 35729:35729

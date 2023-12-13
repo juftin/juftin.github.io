@@ -2,10 +2,10 @@
 title: "Let's talk about camply"
 date: 2022-05-03
 categories:
-- blog
+    - blog
 tags:
-- update
-- camply
+    - update
+    - camply
 ---
 
 <style>
@@ -32,20 +32,20 @@ can be used to proactively search for new availabilities to open up.
 
 Basically, camply works like this:
 
-1) Install camply.
+1. Install camply.
 
 ```console
 pip install camply
 ```
 
-2) You get the ID numbers of your favorite, popular campground / recreation area using
+2. You get the ID numbers of your favorite, popular campground / recreation area using
    [https://recreation.gov](https://recreation.gov) (you can do this with the camply CLI too,
    try `camply --help` on your commandline).
 
-3) You use the camply CLI to search for a reservation to open up. This is pretty common on
+3. You use the camply CLI to search for a reservation to open up. This is pretty common on
    recreation.gov since their cancellation policy is generous and cheap. Check out the below command
    to search for campsites on weekends
-   at [Yosemite National Park](https://www.recreation.gov/camping/gateways/2991) (a rare find for 
+   at [Yosemite National Park](https://www.recreation.gov/camping/gateways/2991) (a rare find for
    certain coveted campgrounds).
 
 ```console
@@ -59,10 +59,10 @@ camply campsites \
   --notify-first-try
 ```
 
-4) camply runs a Python process that searches for new cancellations and sends you a push
+4. camply runs a Python process that searches for new cancellations and sends you a push
    notification on your phone once something becomes available.
 
-5) You click the link on the notification and scramble to book the campsite before anybody else
+5. You click the link on the notification and scramble to book the campsite before anybody else
    does.
 
 Boom! You've just booked yourself a hard to find campsite. That's basically it. camply supports
@@ -110,41 +110,41 @@ if __name__ == "__main__":
 
 ## Camply Feature Ideas and Tech Debt
 
-- [ ] Support multiple, simultaneous searches in the same process
-    - [#77](https://github.com/juftin/camply/discussions/77)
-      and [#76](https://github.com/juftin/camply/discussions/76)
-    - This idea has been brought up a couple times. My current solution is to use Docker Compose to
-      run multiple camply docker containers in the background.
-- [ ] Search for campsites based on attributes
-    - [#63](https://github.com/juftin/camply/discussions/63)
-      and [#75](https://github.com/juftin/camply/discussions/75)
-    - This one is a no-brainer. People want to search for campsites that can fit their RV (or
-      whatever equipment they might have). camply needs to be able to filter results based on a
-      campsite's attributes and allowed equipment.
-- [ ] Simplify adding new campsite providers
-    - [#67](https://github.com/juftin/camply/issues/67)
-      and [#40](https://github.com/juftin/camply/discussions/40)
-    - There have been a couple of requests for adding new Campsite providers (outside of
-      [Recreation.gov](https://ecreation.gov)
-      and [Yellowstone](https://www.yellowstonenationalparklodges.com/stay/camping/)). There is
-      currently is an established pattern, including AbstractBaseClasses, to implement a new
-      Campsite Booking Provider - but it's admittedly clunky and not super intuitive for new
-      contributors.
-- [ ] Search for Wilderness Permits
-    - [#22](https://github.com/juftin/camply/discussions/22)
-    - This would be a tough, yet powerful feature to implement - it uses completely different
-      endpoints and logic from regular campgrounds
-- [x] Search for specific campsites inside of campgrounds
-    - [#51](https://github.com/juftin/camply/discussions/51) Done! This was a simple, but rewarding
-      feature to implement. People can now search for their favorite campsites in their local 
-      campground
-- [ ] Persisted data stores (like a SQLite database) to store data between searches
-    - Currently, each new camply search stores all of its data in-memory. Persisting data between
-      searches could enable more powerful searching
-- [ ] Webserver UI
-    - This might be fun to build if camply is to ever become useful to a non-technical audience.
-      Being able to configure searches via a WebUI would be very useful
-- [ ] Managed Online Service for Hosted Searches
-    - I'm not sure if this is feasible. I'm not interested in making money with camply, but I'm also
-      not interested in losing money. Hosting people's searches on a webiste would be great, but
-      possibly costly and require more time involved than I have to provide.
+-   [ ] Support multiple, simultaneous searches in the same process
+    -   [#77](https://github.com/juftin/camply/discussions/77)
+        and [#76](https://github.com/juftin/camply/discussions/76)
+    -   This idea has been brought up a couple times. My current solution is to use Docker Compose to
+        run multiple camply docker containers in the background.
+-   [ ] Search for campsites based on attributes
+    -   [#63](https://github.com/juftin/camply/discussions/63)
+        and [#75](https://github.com/juftin/camply/discussions/75)
+    -   This one is a no-brainer. People want to search for campsites that can fit their RV (or
+        whatever equipment they might have). camply needs to be able to filter results based on a
+        campsite's attributes and allowed equipment.
+-   [ ] Simplify adding new campsite providers
+    -   [#67](https://github.com/juftin/camply/issues/67)
+        and [#40](https://github.com/juftin/camply/discussions/40)
+    -   There have been a couple of requests for adding new Campsite providers (outside of
+        [Recreation.gov](https://ecreation.gov)
+        and [Yellowstone](https://www.yellowstonenationalparklodges.com/stay/camping/)). There is
+        currently is an established pattern, including AbstractBaseClasses, to implement a new
+        Campsite Booking Provider - but it's admittedly clunky and not super intuitive for new
+        contributors.
+-   [ ] Search for Wilderness Permits
+    -   [#22](https://github.com/juftin/camply/discussions/22)
+    -   This would be a tough, yet powerful feature to implement - it uses completely different
+        endpoints and logic from regular campgrounds
+-   [x] Search for specific campsites inside of campgrounds
+    -   [#51](https://github.com/juftin/camply/discussions/51) Done! This was a simple, but rewarding
+        feature to implement. People can now search for their favorite campsites in their local
+        campground
+-   [ ] Persisted data stores (like a SQLite database) to store data between searches
+    -   Currently, each new camply search stores all of its data in-memory. Persisting data between
+        searches could enable more powerful searching
+-   [ ] Webserver UI
+    -   This might be fun to build if camply is to ever become useful to a non-technical audience.
+        Being able to configure searches via a WebUI would be very useful
+-   [ ] Managed Online Service for Hosted Searches
+    -   I'm not sure if this is feasible. I'm not interested in making money with camply, but I'm also
+        not interested in losing money. Hosting people's searches on a webiste would be great, but
+        possibly costly and require more time involved than I have to provide.

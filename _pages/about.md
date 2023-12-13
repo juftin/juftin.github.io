@@ -34,9 +34,8 @@ engineering, distributed systems, and everything open source
 When I'm not coding you can find me camping with my partner and our two dogs, catching a bluebird day
 skiing in Colorado, or soaking up the sun at a Bluegrass concert.
 
-
 > Now is better than never.
 >
-> Although never is often better than *right* now.
+> Although never is often better than _right_ now.
 >
->   – The Zen of Python
+> – The Zen of Python
