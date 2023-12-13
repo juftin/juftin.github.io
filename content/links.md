@@ -1,9 +1,6 @@
 ---
-author_profile: true
-layout: single
-permalink: /links/
-date: 2022-08-17
-title: ""
+ShowBreadCrumbs: false
+hidemeta: true
 ---
 
 # Project Links
