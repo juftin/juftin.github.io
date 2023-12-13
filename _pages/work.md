@@ -9,7 +9,7 @@ title: ""
 ## Interested in working together?
 
 If you're interested in my work as a Software and Machine Learning Operations
-Engineer: [get in touch](mailto:juftin@juftin.com), learn more on
+Engineer: [get in touch](mailto:justin.flannery@juftin.com), learn more on
 my [LinkedIn](https://linkedin.com/in/justinflannery), or check out
 my [resume](https://juftin.com/resume) for more info.
 

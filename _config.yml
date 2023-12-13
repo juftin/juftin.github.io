@@ -1,5 +1,5 @@
 title: juftin
-email: juftin@juftin.com
+email: justin.flannery@juftin.com
 description: >-
     I'm juftin (Justin Flannery). I'm a Software Engineer in Denver Colorado
     and this is my personal site to showcase my open source projects as well
@@ -53,7 +53,7 @@ author:
           url: "https://linkedin.com/in/justinflannery"
         - label: "Email"
           icon: "fas fa-fw fa-envelope"
-          url: "mailto:juftin@juftin.com"
+          url: "mailto:justin.flannery@juftin.com"
 footer:
     links:
         - label: "GitHub"
@@ -64,7 +64,7 @@ footer:
           url: "https://linkedin.com/in/justinflannery"
         - label: "Email"
           icon: "fas fa-fw fa-envelope"
-          url: "mailto:juftin@juftin.com"
+          url: "mailto:justin.flannery@juftin.com"
 
 defaults:
     # _posts
