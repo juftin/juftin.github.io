@@ -21,3 +21,7 @@ repos:
             args: [--print-width=88, --tab-width=4]
             additional_dependencies:
                 - prettier
+            exclude: |
+                (?x)(
+                  layouts/partials/.*\.html
+                )
