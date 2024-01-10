@@ -21,7 +21,7 @@ If you don't already know, [camply](https://github.com/juftin/camply) is an open
 project that I created a little while ago that helps people to find and snag last minute
 cancellations at campgrounds all around the USA.
 
-<img src="https://raw.githubusercontent.com/juftin/camply/main/docs/static/camply.svg" class="camply-logo">
+<img src="https://raw.githubusercontent.com/juftin/camply/main/docs/_static/camply.svg" class="camply-logo">
 
 I got the idea for camply when my partner and I took a road trip last summer. When we started
 planning campgrounds to stay at inside of National Parks during our trip, we quickly discovered that
