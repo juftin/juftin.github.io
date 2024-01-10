@@ -24,6 +24,12 @@ jobs:
         runs-on: ubuntu-latest
         env:
             HUGO_VERSION: 0.121.0
+        permissions:
+            pages: write
+            id-token: write
+        environment:
+            name: github-pages
+            url: ${{ steps.deployment.outputs.page_url }}
         steps:
             - name: Install Hugo CLI
               run: |
