@@ -8,13 +8,21 @@ tags:
     - hatch
     - pip-compile
     - hatch-pip-compile
+cover:
+    image: https://raw.githubusercontent.com/juftin/hatch-pip-compile/main/docs/logo.png
+    alt: "hatch-pip-compile"
+    caption: "hatch-pip-compile"
 ---
 
-<div align="center">
-  <a href="https://github.com/juftin/hatch-pip-compile">
-    <img src="https://raw.githubusercontent.com/juftin/hatch-pip-compile/main/docs/logo.png" alt="hatch-pip-compile" width="250" />
-  </a>
-</div>
+<style>
+.entry-cover img {
+  width: 50%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
 
 I'm a huge fan of using [hatch] to manage my Python projects. It lets me define my projects
 with a single `pyproject.toml` file and define all of my extra environments and scripts in the

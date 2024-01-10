@@ -77,9 +77,9 @@ params:
           url: mailto:justin.flannery@juftin.com
 
     cover:
-        hidden: true # hide everywhere but not in structured data
-        hiddenInList: true # hide on list pages and home
-        hiddenInSingle: true # hide on single page
+        hidden: false
+        hiddenInList: true
+        hiddenInSingle: false
 
     editPost:
         URL: "https://github.com/juftin/juftin.github.io/content"
