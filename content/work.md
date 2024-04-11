@@ -93,11 +93,11 @@ complete coverage of all endpoints and plugins to other external services.
 
 ### [dotfiles](https://github.com/juftin/dotfiles)
 
-`dotfiles` 🌈 is a collection of my personal dotfiles for `macOS`, `Linux`, `zsh`, and 
+`dotfiles` 🌈 is a collection of my personal dotfiles for `macOS`, `Linux`, `zsh`, and
 _everything else_. It's a set of configuration files with an opinionated set of tools and
-configurations based on my personal preferences. `dotfiles` are a personal preference so if 
-my files aren't for you, you'll enjoy the `dev-setup` 📔 documentation which helps you 
-get up and running on your own `macOS` or `Linux` machine. 
+configurations based on my personal preferences. `dotfiles` are a personal preference so if
+my files aren't for you, you'll enjoy the `dev-setup` 📔 documentation which helps you
+get up and running on your own `macOS` or `Linux` machine.
 `dotfiles` can be installed with **`curl -fsSL https://juftin.com/dotfiles/get | bash`**.
 
 ### [cookiecutter-python](https://github.com/juftin/cookiecutter-python)
@@ -124,8 +124,7 @@ basic structure of an API project and providing examples of implementing common 
 I've always been a big TV and Movies nerd. On the weekends you can find me searching RottenTomatoes
 for the latest _certified fresh_ 🍅 pick. `homelab` is a multi-container docker-compose
 application that supports every aspect of hosting your own media server at home. `homelab`
-includes everything you needto host a website for your friends and
+includes everything you need to host a website for your friends and
 family to request new content be downloaded, services to find and securely download the latest
 movies and shows, and underneath it all a Plex media server to support playback of the content
-anywhere and on any device. Homelab evolved out of the [media-center](https://github.com/juftin/media-center)
-project and most of the documentation hasn't been migrated yet.
+anywhere and on any device.
