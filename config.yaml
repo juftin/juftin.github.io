@@ -117,10 +117,10 @@ menu:
           name: github
           url: https://github.com/juftin
           weight: 50
-        - identifier: cv
-          name: cv
-          url: /resume/
-          weight: 60
+#        - identifier: cv
+#          name: cv
+#          url: /resume/
+#          weight: 60
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
