@@ -6,9 +6,8 @@ hidemeta: true
 ## Interested in working together?
 
 If you're interested in my work as a software engineer:
-[get in touch](mailto:justin.flannery@juftin.com), learn more on
-my [LinkedIn](https://linkedin.com/in/justinflannery), or check out
-my [resume](../resume) for more info.
+[get in touch](mailto:justin.flannery@juftin.com) and/or learn more on
+my [LinkedIn](https://linkedin.com/in/justinflannery).
 
 <style>
     .greeting {
